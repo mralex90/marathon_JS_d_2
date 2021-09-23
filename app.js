@@ -30,6 +30,7 @@ function dragenter(event) {
 }
 
 function dragleave(event) {
+    event.target.classList.remove('hovered')
     console.log('drag leave');
 }
 
